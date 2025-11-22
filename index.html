@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Indian Flag</title>
+    <style>
+        .flag {
+            border: solid black;
+            height: 600px;
+            width: 800px;
+            position: relative;
+        }
+
+        .flag .orange {
+            background-color: #F97300;
+            height: 200px;
+            width: 800px;
+            position: relative;
+        }
+
+        .flag .white {
+            background-color: white;
+            height: 200px;
+            width: 800px;
+        }
+
+        .flag > .white > .wheel {
+            background-color: #000088;
+            height: 180px;
+            width: 180px;
+            border-radius: 50%;
+            position: absolute;
+            top: 34.9%;
+            left: 40%;
+        }
+
+        .flag > .white > .wheel > .spokes {
+            background-color: white;
+            height: 162px;
+            width: 162px;
+            border-radius: 50%;
+            position: relative;
+            left: 5.2%;
+            top: 5%;
+        }
+
+        .flag > .white > .wheel > .spokes .line {
+            background-color: #000088;
+            height: 100%;
+            width: 6px;
+            position: absolute;
+            left: 48%;
+        }
+
+        .line:nth-child(1) { transform: rotate(0deg); }
+        .line:nth-child(2) { transform: rotate(15deg); }
+        .line:nth-child(3) { transform: rotate(30deg); }
+        .line:nth-child(4) { transform: rotate(45deg); }
+        .line:nth-child(5) { transform: rotate(60deg); }
+        .line:nth-child(6) { transform: rotate(75deg); }
+        .line:nth-child(7) { transform: rotate(90deg); }
+        .line:nth-child(8) { transform: rotate(105deg); }
+        .line:nth-child(9) { transform: rotate(120deg); }
+        .line:nth-child(10) { transform: rotate(135deg); }
+        .line:nth-child(11) { transform: rotate(150deg); }
+        .line:nth-child(12) { transform: rotate(165deg); }
+
+        .flag .green {
+            background-color: green;
+            height: 200px;
+            width: 800px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flag">
+        <div class="orange"></div>
+        <div class="white">
+            <div class="wheel">
+                <div class="spokes">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="green"></div>
+    </div>
+</body>
+</html>
